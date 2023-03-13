@@ -1,0 +1,23 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+// Estilos
+body {
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+// Estilos para una clase específica
+.some-class {
+  border: 1px solid $primary-color;
+  padding: 10px;
+}
